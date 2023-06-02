@@ -1,0 +1,7 @@
+2023-05-31T14:40:15.749 info: ===================================================================
+2023-05-31T14:40:15.751 info: scimgateway[plugin-loki] accepting requests from all clients
+2023-05-31T14:40:15.756 info: scimgateway[plugin-loki] now listening SCIM 2.0 on port 8880...
+
+2023-05-31T14:40:56.559 debug: scimgateway[plugin-loki] received terminate/kill signal - closing connections and exit
+2023-05-31T14:40:56.561 info: scimgateway[plugin-loki] pheww... 0 requests have been processed in the period 2023-05-31T14:40:15.546 - 2023-05-31T14:40:56.560
+

@@ -1,0 +1,117 @@
+{
+  "scimgateway": {
+    "port": 443,
+    "localhostonly": false,
+    "payloadSize": null,
+    "scim": {
+      "version": "1.1",
+      "customSchema": "customSchema.json",
+      "skipTypeConvert": false,
+      "usePutSoftSync": false
+    },
+    "log": {
+      "loglevel": {
+        "file": "debug",
+        "console": "error"
+      },
+      "customMasking": null
+    },
+    "auth": {
+      "basic": [
+        {
+          "username": "gwadmin",
+          "password": "MmU0MDk4NTJkNGNmZDk1NTgxNzdlMzU2NTM0MWJjMTg6YWMzNDczNDFmODk0MWZiNjg0ZGJkOWI5ZTdiYTVjM2M=",
+          "readOnly": false,
+          "baseEntities": []
+        }
+      ],
+      "bearerToken": [
+        {
+          "token": null,
+          "readOnly": false,
+          "baseEntities": []
+        }
+      ],
+      "bearerJwtAzure": [
+        {
+          "tenantIdGUID": null,
+          "readOnly": false,
+          "baseEntities": []
+        }
+      ],
+      "bearerJwt": [
+        {
+          "secret": null,
+          "publicKey": null,
+          "options": {
+            "issuer": null
+          },
+          "readOnly": false,
+          "baseEntities": []
+        }
+      ],
+      "bearerOAuth": [
+        {
+          "client_id": null,
+          "client_secret": null,
+          "readOnly": false,
+          "baseEntities": []
+        }
+      ],
+      "passThrough": {
+        "enabled": false,
+        "readOnly": false,
+        "baseEntities": []
+      }
+    },
+    "certificate": {
+      "key": "private.pem",
+      "cert": "certificate.pem",
+      "ca": null,
+      "pfx": {
+        "bundle": null,
+        "password": null
+      }
+    },
+    "ipAllowList": [],
+    "emailOnError": {
+      "smtp": {
+        "enabled": false,
+        "host": null,
+        "port": 587,
+        "proxy": null,
+        "authenticate": true,
+        "username": null,
+        "password": null,
+        "sendInterval": 15,
+        "to": null,
+        "cc": null
+      }
+    },
+    "kubernetes": {
+      "enabled": false,
+      "shutdownTimeout": 15000,
+      "forceExitTimeout": 1000
+    }
+  },
+  "endpoint": {
+    "connection": {
+      "server": "127.0.0.1",
+      "authentication": {
+        "type": "default",
+        "options": {
+          "userName": "sa",
+          "password": "ZjFhMDdkMDdjNDQ3NDg5MTEwNTVjZDcxZGZkOWNhY2M6YTM4ZmVmMWU5OTI4MDZlYzMxN2U3NGI1MjRmZjNmMDg="
+        }
+      },
+      "options": {
+        "instanceName": "",
+        "port": 1433,
+        "database": "dbo",
+        "useColumnNames": true,
+        "rowCollectionOnRequestCompletion": true,
+        "encrypt": false
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+[
+  { 
+    "name": "User",
+    "attributes": [
+      {
+        "name": "UserID",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false
+      }, {
+        "name": "Enabled",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      }, {
+        "name": "Password",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      }, {
+        "name": "FirstName",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      }, {
+        "name": "MiddleName",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      }, {
+        "name": "LastName",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      }, {
+        "name": "Email",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      }, {
+        "name": "MobilePhone",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      },
+      {
+        "name": "emailAddress",
+        "type": "string",
+        "multiValued": false,
+        "description": "",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false         
+      }
+    ]
+  }
+]
